@@ -23,6 +23,8 @@ import {
 } from 'react-icons/fa6'
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import aboutImg from '../assets/slic1.jpg'
+import ministriesImg from '../assets/slic2.jpg'
 
 
 function Home() {
@@ -150,13 +152,13 @@ function Home() {
 
       <section className="about-container" id="about">
         <div className="about-img">
-          <img src="/src/assets/slic1.jpg" alt="" style={{ width: '90%', height: '90%', objectFit: 'cover',borderRadius: '10px' }} />
+          <img src={aboutImg} alt="About SLIC" style={{ width: '90%', height: '90%', objectFit: 'cover',borderRadius: '10px' }} />
         </div>
 
         <div className="about-items">
           <div className="about-text">
             <h1>About Our Church</h1>
-            <p>Grace Community Church has been serving our community for over 25 years. We are a vibrant, diverse congregation committed to following Jesus Christ and making a positive impact in our world.</p>
+            <p>Standard Life Int'l Church has been serving our community for over 25 years. We are a vibrant, diverse congregation committed to following Jesus Christ and making a positive impact in our world.</p>
             <p>Our mission is to know God and make Him known through authentic worship, biblical teaching, and loving service to others. We believe that everyone has a place in God's family and in our church family.</p>
           </div>
           
@@ -203,7 +205,7 @@ function Home() {
 
         <div className="ministries-content">
           <div className="ministries-items">
-            <img src="/src/assets/slic2.jpg"/>
+            <img src={ministriesImg} alt="Ministries" />
             <div style={{ padding: '5px'}}>
               <h3>Community Outreach</h3>
               <p>Serving our neighbors and making a difference in our community</p>
@@ -216,7 +218,7 @@ function Home() {
             <button>Learn More</button>
           </div>
           <div className="ministries-items">
-            <img src="/src/assets/slic2.jpg"/>
+            <img src={ministriesImg} alt="Children's Ministry" />
             <div style={{ padding: '5px'}}>
               <h3>Children's Ministry</h3>
               <p>Fun, safe, and engaging programs for kids from birth to 5th grade</p>
@@ -229,7 +231,7 @@ function Home() {
             <button>Learn More</button>
           </div>
           <div className="ministries-items">
-            <img src="/src/assets/slic2.jpg"/>
+            <img src={ministriesImg} alt="Youth Ministry" />
             <div style={{ padding: '5px'}}>
               <h3>Youth Ministry</h3>
               <p>Connecting teens with God and each other through relevant teaching and fun activities</p>

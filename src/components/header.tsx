@@ -2,6 +2,7 @@ import { useState } from 'react'
 import '../App.css'
 import '../pages/index'
 import { HashLink } from 'react-router-hash-link'
+import logo from '../assets/slicLogo.png'
 
 
 function Header() {
@@ -12,7 +13,7 @@ function Header() {
       <nav className="navbar">
         <div className="nav-inner">
           <div className="logo">
-            <img src="/src/assets/slicLogo.png" alt="" />
+            <img src={logo} alt="SLIC Logo" />
             <h1>Standard Life Int'l Church-SLIC</h1>
           </div>
 
