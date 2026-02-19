@@ -498,7 +498,6 @@
 .form-content button {
   padding: 12px;
   border: none;
-  position: fixed;
   background-color: #050063;
   color: white;
   border-radius: 6px;
@@ -522,8 +521,6 @@
   background-color: #050063;
   color: white;
   padding: 20px;
-  z-index: 10000;
-  bottom: 0;
 }
 .footer1 {
   display: flex;
@@ -697,7 +694,7 @@ hr {
     margin-left: 10px;
   }
   .addmini-item {
-    font-size: 10px;
+    font-size: 14px;
   }
   .events-content {
     width: 100%;
